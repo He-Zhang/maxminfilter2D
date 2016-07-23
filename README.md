@@ -6,18 +6,16 @@ This is a minimum and maximum filter program written in C++ scratch. It mainly f
 described in the paper [A fast algorithm for local minimum and maximum filters on rectangular and octagonal kernels](http://www.sciencedirect.com/science/article/pii/016786559290069C),
 which is also the one used by [dark channel](http://kaiminghe.com/cvpr09/index.html).
 
-
-[![Build Status](https://travis-ci.org/ppwwyyxx/panorama.svg?branch=master)](https://travis-ci.org/ppwwyyxx/panorama)
-
 ##Compile Dependencies:
   
-* gcc >= 4.7
 * [OpenCV](www.opencv.org)
 
 
 ## Examples:
-![](./image/ny17_input.png)
-![](./image/ny17_out.png)
+<center>
+<img src="./image/ny17_input.png" width = "400" alt="图片名称" />
+<img src="./image/ny17_out.png" width = "400"  alt="图片名称" />
+</center>
 
 For more examples, see [results](https://github.com/herzhang/maxminfilter2D/tree/master/image).
 
